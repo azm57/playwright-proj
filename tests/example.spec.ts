@@ -17,5 +17,5 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 
   // Expects page to have a heading with the name of Introduction.
-  await expect(page.getByRole('heading', { name: 'Introduction' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Introducion' })).toBeVisible();
 });
